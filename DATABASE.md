@@ -7,21 +7,35 @@ The contacts table holds the necessary information for each contact. At present,
 
 **Columns**:
 id (INT, AUTO_INCREMENT, PRIMARY KEY): Unique identifier for each entry.
+
 prenom (VARCHAR(50)): Contact's first name.
+
 nom (VARCHAR(50)): Contact's last name.
+
 age (INT): Age of the contact.
+
 pays (VARCHAR(50)): Country where the contact resides.
+
 email (VARCHAR(100)): Contact's email address.
+
 telephone (VARCHAR(15)): Contact's phone number.
 
 **CREATE TABLE contacts (
+
     id INT AUTO_INCREMENT PRIMARY KEY,
+    
     prenom VARCHAR(50),
+    
     nom VARCHAR(50),
+    
     age INT,
+    
     pays VARCHAR(50),
+    
     email VARCHAR(100),
+    
     telephone VARCHAR(15)
+    
 );**
 
 **Relationships**
