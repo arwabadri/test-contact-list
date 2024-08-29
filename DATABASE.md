@@ -20,7 +20,9 @@ email (VARCHAR(100)): Contact's email address.
 
 telephone (VARCHAR(15)): Contact's phone number.
 
-CREATE TABLE contacts (
+
+CREATE TABLE contacts(
+
     id INT AUTO_INCREMENT PRIMARY KEY,
     
     prenom VARCHAR(50),
@@ -33,8 +35,7 @@ CREATE TABLE contacts (
     
     email VARCHAR(100),
     
-    telephone VARCHAR(15)   
-);
+    telephone VARCHAR(15));
 
 **Relationships**
 At this stage, the contacts table stands alone. No foreign key relationships are established. The current design can be expanded in the future to accommodate more complex connections if required, such as linking contacts with organizations or categories.
