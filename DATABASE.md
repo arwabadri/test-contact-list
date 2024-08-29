@@ -6,20 +6,22 @@ This document provides a detailed overview of the database setup used for managi
 The contacts table holds the necessary information for each contact. At present, this table functions independently without any linked tables.
 
 **Columns**:
-id (INT, AUTO_INCREMENT, PRIMARY KEY): Unique identifier for each entry.
 
-prenom (VARCHAR(50)): Contact's first name.
+*id (INT, AUTO_INCREMENT, PRIMARY KEY)* : Unique identifier for each entry.
 
-nom (VARCHAR(50)): Contact's last name.
+*prenom (VARCHAR(50))*: Contact's first name.
 
-age (INT): Age of the contact.
+*nom (VARCHAR(50))*: Contact's last name.
 
-pays (VARCHAR(50)): Country where the contact resides.
+*age (INT)*: Age of the contact.
 
-email (VARCHAR(100)): Contact's email address.
+*pays (VARCHAR(50))*: Country where the contact resides.
 
-telephone (VARCHAR(15)): Contact's phone number.
+*email (VARCHAR(100))*: Contact's email address.
 
+*telephone (VARCHAR(15))*: Contact's phone number.
+
+## SQL Table Creation:
 
 CREATE TABLE contacts(
 
