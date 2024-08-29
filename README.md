@@ -26,7 +26,7 @@ This application allows users to manage a list of contacts. It supports basic CR
 
 ## Installation
 
-1. Clone the repository or download the project files.
+Clone the repository or download the project files.
 
 **Database Setup:**
 
