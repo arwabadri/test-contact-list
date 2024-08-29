@@ -28,15 +28,19 @@ This application allows users to manage a list of contacts. It supports basic CR
 ## Setup Instructions
 
 **Database Setup:**
+
 1. Create a database named contacts_db.
 2. Refer to the DATABASE.md file for the table structure and SQL commands.
 
 **Configure Database Connection:**
+
 Open connexion.php and update the database credentials.
 
 **Run the Application:**
+
 1. Place the files in your server's web directory.
-2. Access the application through http://localhost/your-project-directory.
+2. Access the application through http://localhost/project-directory.
+
 
 ## File Overview
 
