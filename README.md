@@ -24,12 +24,13 @@ This application allows users to manage a list of contacts. It supports basic CR
 
 **Server:** EasyPHP (or another local server like XAMPP)
 
+## Installation
 
-## Setup Instructions
+1. Clone the repository or download the project files.
 
 **Database Setup:**
 
-1. Create a database named contacts_db.
+1. Create a database named contact.
 2. Refer to the DATABASE.md file for the table structure and SQL commands.
 
 **Configure Database Connection:**
@@ -76,7 +77,3 @@ Open connexion.php and update the database credentials.
 
 **Data Validation**: Ensure proper validation both on the client and server side.
 
-
-## License
-
-This project is under the MIT License.
