@@ -21,7 +21,6 @@ email (VARCHAR(100)): Contact's email address.
 telephone (VARCHAR(15)): Contact's phone number.
 
 CREATE TABLE contacts (
-
     id INT AUTO_INCREMENT PRIMARY KEY,
     
     prenom VARCHAR(50),
@@ -34,8 +33,7 @@ CREATE TABLE contacts (
     
     email VARCHAR(100),
     
-    telephone VARCHAR(15)
-    
+    telephone VARCHAR(15)   
 );
 
 **Relationships**
