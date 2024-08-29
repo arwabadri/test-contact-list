@@ -24,7 +24,9 @@ The contacts table holds the necessary information for each contact. At present,
 ## SQL Table Creation:
 
 
-CREATE TABLE contacts( id INT AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE contacts( 
+
+    id INT AUTO_INCREMENT PRIMARY KEY,
     
     prenom VARCHAR(50),
     
